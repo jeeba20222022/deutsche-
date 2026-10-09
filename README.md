@@ -1,13 +1,29 @@
-# Deutsch A1 — Mon Coach · édition enseignant 5.0
+# Deutsch A1 — Mon Coach · édition enseignant 6.0
 
 Application personnelle pour Oswaldo AYOSSO : allemand A1 expliqué en français, travail page par page, entraînements, compositions et révision espacée. Site statique prêt pour GitHub Pages, sans compilation, compte apprenant ni abonnement.
+
+## Nouvelle notation du manuel
+
+Dans une page, utilise **Mes réponses et mes notes d’exercice**. Les **70 fiches « Noté automatiquement »** proposent **478 cases de réponse**, chacune valant un point. Écris les réponses puis clique **Soumettre et recevoir ma note** : la note sur 20 s’affiche avant le corrigé. Ensuite, utilise **Consulter mon corrigé** ou **Refaire sans regarder**.
+
+La notation porte sur les réponses explicitement demandées par ces cases, parfois une partie d’une activité, pas sur tous les exercices du manuel. Les autres fiches proposent une soumission suivie d’une comparaison et d’une grille personnelle; aucune note automatique de rédaction n’est inventée. Les champs du **cahier libre** enregistrent tes notes sans les noter.
+
+Le premier résultat et le meilleur sont conservés. Les nouvelles tentatives après consultation sont signalées. Une mauvaise réponse ou une case vide vaut zéro; une réponse exacte ou une variante enregistrée vaut un point. Les majuscules et la ponctuation courante sont tolérées; les Umlauts sont distincts. Les nombres conservent leur signe négatif et les numéros de téléphone tolèrent espaces/tirets. Les cases indiquent le format attendu. Ce correcteur local ne comprend pas toutes les formulations équivalentes comme un enseignant : compare le modèle si tu penses qu’une variante est valable.
+
+**Progrès → Mes notes du manuel** affiche les résultats et la moyenne des premiers essais automatiques. Les autoévaluations sont exclues. Après une note inférieure à 16/20, un rappel est programmé le lendemain; sinon après trois jours. Les notes, brouillons et tentatives sont sauvegardés et exportés avec la progression; les cent dernières tentatives de chaque fiche sont conservées, ainsi que le premier résultat et le meilleur. Ces notes sont personnelles et ne valent pas certification.
+
+Les corrigés restent masqués au début d’une nouvelle tentative. Il s’agit d’un outil de travail, pas d’un dispositif sécurisé d’examen : les clés sont présentes dans les fichiers du site et des corrigés déjà lus peuvent être connus.
+
+## Correction de pagination
+
+Le champ utilise désormais le numéro imprimé du manuel : saisis 24 pour ouvrir la page 24. Le mode « Pages du PDF » permet d’accéder aux couvertures. Le décalage après la page 94 est pris en compte et la page 95 absente est signalée. Les notes et réponses existantes restent liées à la bonne page.
 
 ## Déposer cette version
 
 1. Exporte ta progression dans l’ancienne application, par précaution.
 2. Extrais `Deutsch-A1-v5-Edition-Enseignant.zip`.
 3. Dépose **les fichiers extraits à la racine de ton dépôt**, avec `index.html` directement visible. Ne dépose pas le ZIP ni un dossier supplémentaire.
-4. Publie avec GitHub Pages comme pour ton site actuel. Après le déploiement, recharge puis ferme et rouvre l’application. Le pied de page doit afficher **Version 5.0**.
+4. Publie avec GitHub Pages comme pour ton site actuel. Après le déploiement, recharge puis ferme et rouvre l’application. Le pied de page doit afficher **Version 6.0**.
 
 Les sauvegardes existantes et le manuel déjà importé restent compatibles. Le nouveau cache remplace les fichiers du site et conserve le cache personnel du manuel.
 
@@ -60,6 +76,10 @@ Sources des supports externes : [Goethe — modèles A1](https://www.goethe.de/i
 PDF 10 = livre p. 8; PDF 96 = p. 94. Le PDF 97 reprend directement p. 96 : la page imprimée 95 manque dans le document fourni. Les repères tiennent compte de ce décalage.
 
 Les données restent sur l’appareil. Exporte ta progression régulièrement et utilise Importer sur un autre appareil. Pas de synchronisation automatique entre téléphone et ordinateur. Vider les données du navigateur peut supprimer progression et manuel : garde tes exports et ton pack personnel.
+
+## Validation de la notation
+
+Les 70 grilles et leurs 478 réponses ont été testées avec des réponses exactes, variantes admises et erreurs. Tests du premier/meilleur résultat, des cases vides, du signe des nombres, de la séparation autoévaluation/notation, du masquage avant soumission et lors d’une nouvelle tentative, de l’export/import et des sauvegardes anciennes. Les 22 ressources de l’application sont incluses au cache hors connexion. Dans Chromium à 320 et 390 pixels : notes 12 puis 20, premier essai conservé, corrigé masqué avant remise et lors d’une nouvelle tentative, case vide sans perte de sauvegarde, rechargement et reprise hors connexion vérifiés.
 
 ## Validation
 
