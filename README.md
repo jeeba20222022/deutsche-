@@ -1,76 +1,68 @@
-# Deutsch A1 – Mon Coach · version 3.0
+# Deutsch A1 — Mon Coach · édition enseignant 5.0
 
-Site personnel d’apprentissage de l’allemand A1 pour francophone. Le code fonctionne sur GitHub Pages, sans compte apprenant, abonnement, API ou serveur applicatif. Tous les fichiers de cette archive sont à placer à la racine de ton dépôt existant.
+Application personnelle pour Oswaldo AYOSSO : allemand A1 expliqué en français, travail page par page, entraînements, compositions et révision espacée. Site statique prêt pour GitHub Pages, sans compilation, compte apprenant ni abonnement.
 
-## Cette mise à jour
+## Déposer cette version
 
-- Nouvelle présentation : navigation par icônes, espace de cours, corrigés par page, tableau d’examens, mise en page adaptée aux petits écrans.
-- Onglet **Corrigés** : 42 fiches de réponses ou modèles sur 29 pages, et deux aides complémentaires. Une réponse unique est distinguée d’un modèle possible. Ces fiches ne couvrent pas encore tous les exercices du manuel.
-- Onglet **Examens** : 12 compositions d’unité et une composition d’introduction (20 questions, 20 minutes), deux examens blancs originaux, trois feuilles de réponses pour les sujets officiels Goethe A1.
-- Mode composition : réponses modifiables avant remise, chronomètre, sauvegarde automatique et corrigé seulement après remise.
+1. Exporte ta progression dans l’ancienne application, par précaution.
+2. Extrais `Deutsch-A1-v5-Edition-Enseignant.zip`.
+3. Dépose **les fichiers extraits à la racine de ton dépôt**, avec `index.html` directement visible. Ne dépose pas le ZIP ni un dossier supplémentaire.
+4. Publie avec GitHub Pages comme pour ton site actuel. Après le déploiement, recharge puis ferme et rouvre l’application. Le pied de page doit afficher **Version 5.0**.
 
-- Manuel personnel : 258 pages navigables après import de ton fichier `.deutsch`, agrandissement, notes, dernière page et repères de travail.
-- Cahier par page : 363 repères d’activités avec aides méthodologiques en français ; réponses enregistrées séparément. Tu peux ajouter une fiche pour toute activité ou sous-question du manuel. La liste des repères ne constitue pas un inventaire exhaustif garanti : la page originale reste la référence.
-- Introduction et 12 unités, explications françaises, vocabulaire, grammaire, dialogues, prononciation et missions de conversation.
-- 312 cartes allemand/français. Les 104 premières expressions et leurs identifiants de révision restent compatibles avec la version précédente.
-- 20 questions corrigées pour chaque unité et l’introduction : 260 questions au total. Trois bilans de 20 questions ; révision globale de 60 questions. Correction expliquée, score et meilleur résultat conservé.
-- Mention **AUDIO** pour les activités d’écoute repérées ; référence exacte à lire sous le pictogramme du manuel. Champ pour noter le nom de ton fichier ou la piste. Table du CD apprenant accessible au PDF 257.
-- Révisions : cartes après 1, 3, 7, 14 et 30 jours ; exercice difficile à revoir le lendemain ; exercice travaillé rappelé après 3 jours.
-- Notes, réponses, références audio, scores et rappels inclus dans l’export de progression.
+Les sauvegardes existantes et le manuel déjà importé restent compatibles. Le nouveau cache remplace les fichiers du site et conserve le cache personnel du manuel.
 
-La méthodologie : comprendre → écouter → répéter → mémoriser → utiliser → tester → réviser. Travaille une page à la fois : lis la consigne, fais l’exercice du livre, écris tes réponses, puis reprends le point difficile le lendemain.
+## Ce que contient le site
 
-## Ce qui est corrigé
+- Introduction et 12 unités : explications françaises, grammaire, vocabulaire, prononciation, dialogues et production personnelle.
+- Manuel : 258 pages navigables après import de ton pack personnel `.deutsch`; zoom, notes, reprise de la dernière page et suivi des pages travaillées.
+- Cahier : 363 repères d’activités, champs de réponse séparés, références **AUDIO**, rappels et ajout de sous-questions. Ce repérage automatique n’est pas un inventaire exhaustif des exercices.
+- **309 fiches corrigées ou modèles sur 184 pages** : 222 réponses attendues et 87 modèles pour activités ouvertes. Onze aides supplémentaires signalent notamment les supports non fournis. Recherche par mot, thème ou page; filtre par unité; réponse masquée jusqu’à ouverture.
+- Corrigés enrichis à partir des textes, scans et transcriptions du manuel : nombres, téléphones, horaires, trajets, travail, achats, vacances, vêtements, météo, corps, trois stations et lecture/formulaire du test final.
+- 312 cartes allemand/français; révisions à 1, 3, 7, 14 et 30 jours; carnet d’erreurs alimenté par les tentatives.
+- 260 questions d’entraînement corrigées; trois bilans de 20 questions; révision globale de 60 questions.
+- Introduction et 12 compositions d’unité : 20 questions, 20 minutes. Deux examens blancs originaux complets. Trois feuilles de réponses pour sujets Goethe A1 avec liens vers les PDF/audios officiels et clés vérifiées.
+- Composition : chronomètre, réponses modifiables, reprise après fermeture, correction après remise. L’écrit et l’oral disposent d’une grille d’autoévaluation.
+- Séance guidée de 15, 20 ou 30 minutes; missions écrites sauvegardées; trois objectifs et questions orales par unité.
+- Interface adaptée au téléphone : navigation à cinq entrées, menu Outils, dictaphone local, suivi de progression, export/import et vérification hors connexion.
 
-Les 42 fiches de corrigés du manuel sont consultables par page et par unité. Les autres activités disposent du cahier de réponses ; elles ne sont pas automatiquement corrigées. Le PDF fourni ne contient pas le livret de solutions : le corrigé intégral de tous les exercices reste à compléter avec le livret **studio d A1 – Lösungen** correspondant à cette édition et, si nécessaire, les transcriptions des écoutes. Le site l’indique dans l’onglet Corrigés.
+Méthode : **comprendre → écouter → répéter → mémoriser → utiliser → tester → réviser**. Une page à la fois : essaie avant d’ouvrir les corrigés; explique tes choix; refais demain ce qui reste difficile.
 
-Les questions pédagogiques et compositions d’unité sont originales. Elles travaillent les thèmes du parcours et ne sont pas une reproduction de tous les exercices du livre. « J’ai travaillé cet exercice » est un suivi personnel, pas une validation par un correcteur.
+## Portée exacte des corrections
 
-## Composer un examen
+Une fiche peut traiter plusieurs questions. La présence d’un corrigé sur une page ne signifie pas que toutes ses activités et sous-questions sont corrigées. `INVENTAIRE-CORRIGES.csv` énumère chaque fiche, son type et sa page pour rendre la couverture contrôlable. Les activités absentes disposent du cahier de réponses, sans validation automatique.
 
-Ouvre **Examens**, choisis une unité, un examen blanc du coach ou un sujet officiel Goethe. Le mode complet suit quatre parties : Hören 20 minutes, Lesen 25 minutes, Schreiben 20 minutes, Sprechen 15 minutes. Termine chaque partie quand tu es prêt ; à l’expiration, le site passe à la suivante. Tu peux revenir sur les questions de la partie en cours. Le chronomètre continue après fermeture ou changement d’écran.
+Les six pages de stations VIDEO nécessitent le film associé, absent du document fourni. Les **15 questions Hören du test final du livre** n’ont pas de clé vérifiable dans les transcriptions imprimées : aucune réponse supposée n’a été fabriquée. Les examens du coach et les feuilles Goethe disposent de leurs propres clés. Certains exercices de photos, plans, jeux ou activités collectives ont des repères ou modèles, sans association exhaustive avec chaque illustration.
 
-Les deux sujets du coach comprennent des textes originaux et des écoutes en synthèse vocale. Les trois sujets Goethe utilisent leurs PDF et enregistrements officiels, accessibles par liens ; le site propose une feuille de réponses et les clés vérifiées sur les corrigés officiels. Télécharge ces supports avant une séance sans connexion. Aucun PDF ni audio officiel n’est copié dans cette archive.
+Les compositions du coach sont originales et travaillent les objectifs A1. Elles ne reproduisent pas les tests de chaque unité du manuel. Les réponses ouvertes, rédactions et conversations ne sont pas notées automatiquement; « travaillé » est un suivi personnel, pas une certification.
 
-Après remise, écoute, lecture et formulaire sont corrigés sur 35 points. Certaines variantes d’écriture du formulaire peuvent ne pas être reconnues : compare la réponse au PDF officiel avant de conclure à une erreur. L’écrit et l’oral utilisent une grille d’autoévaluation ; la note d’ensemble éventuelle est une estimation pédagogique, pas un résultat officiel. L’oral se pratique à voix haute, avec un partenaire ou le dictaphone du coach.
+## Ton manuel et tes audios
 
-Sources : [Goethe – modèles A1, PDF et audios](https://www.goethe.de/ins/de/de/prf/gzsd1/ueb.html), [Goethe – structure de l’examen](https://www.goethe.de/ins/de/de/prf/gzsd1.cfm), [telc – sujet gratuit Start Deutsch 1](https://shop.telc.net/media/catalog/product/file/2/0/20210103_5070-b00-010106_web_1.pdf). Le sujet telc est une ressource externe ; il ne possède pas de feuille de correction intégrée ici.
+L’archive du site ne contient pas les scans du livre. Si tu as déjà importé le manuel dans l’application, tu le conserves. Sinon, ouvre **Manuel → Importer mon manuel** et choisis ton fichier personnel `manuel-personnel.deutsch`. Les packs précédents, dont le pack léger, sont compatibles. Garde ton pack sur le téléphone pour pouvoir le réimporter si le navigateur efface les données.
 
-## Mettre à jour ton dépôt GitHub
+Le manuel reste dans le cache local de chaque appareil; il n’est pas envoyé au serveur par cette application. Ne dépose pas ton pack personnel et tes audios dans un dépôt public. L’export de progression contient les notes/réponses/scores, mais pas les pages du livre ni les fichiers audio.
 
-1. Dans l’ancienne application, ouvre **Progrès → Exporter ma progression**, par précaution.
-2. Télécharge puis extrais `Deutsch-A1-v3-Site-GitHub.zip`.
-3. Ouvre ton dépôt `deutsche-`, onglet **Code**. Utilise **Add file → Upload files**, puis dépose tous les fichiers extraits à la racine, où se trouve déjà `index.html`. Envoie les fichiers, pas le ZIP et pas un dossier supplémentaire. Valide avec **Commit changes**.
-4. Attends la réussite du déploiement GitHub Pages. Ouvre ton adresse habituelle, recharge, puis ferme et rouvre l’application installée si elle montre encore l’ancienne version. Le pied de page doit afficher **Version 3.0**.
+Les activités du manuel portent la mention **AUDIO**. Lis la référence sous son pictogramme, écoute ta piste dans le lecteur du téléphone, puis reviens répondre. Le champ de référence garde le nom de ta piste. PDF 257 : table du CD apprenant; les autres supports gardent leurs références propres.
 
-Ne change pas les paramètres GitHub Pages d’un site qui fonctionne déjà. La mise à jour conserve la clé de sauvegarde et le cache des pages du manuel. Le nouveau service worker remplace seulement les fichiers du site. Exporte avant de supprimer des données dans les réglages du navigateur.
+Les boutons Écouter du coach utilisent la synthèse vocale du téléphone, indépendante des enregistrements du manuel. Une voix allemande installée peut être nécessaire. L’écoute hors connexion dépend de la voix disponible sur ton appareil.
 
-## Manuel et téléphone
+## Installer sur Android
 
-Cette petite archive contient le site et ses aides ; elle ne contient pas les scans du livre. Si ton manuel est déjà importé dans l’application, tu le conserves. Sinon, dans **Manuel → Importer mon manuel**, choisis ton fichier personnel `manuel-personnel.deutsch`. Les packs fournis précédemment restent compatibles, y compris la version légère. Il faut l’importer séparément sur chaque appareil ; la synchronisation n’est pas automatique.
+Ouvre l’adresse HTTPS de ton site dans Chrome. Attends **Prêt hors connexion**, puis utilise le menu du navigateur **Installer l’application** ou **Ajouter à l’écran d’accueil**. C’est une application web installable, pas un APK. Après l’import du manuel, vérifie **Progrès → Vérifier mon appareil**, puis essaie de rouvrir en mode avion. Les supports Goethe accessibles par liens doivent être téléchargés séparément pour les utiliser hors connexion.
 
-Garde ce fichier sur ton téléphone : si le navigateur efface son cache, tu peux le réimporter. Le manuel reste dans le cache local et n’est pas envoyé au serveur par cette application.
+## Examens
 
-Pour installer : ouvre le site en HTTPS dans le navigateur et attends **Prêt hors connexion**. Sur Android, utilise le menu du navigateur pour installer / ajouter à l’écran d’accueil. Sur iPhone, ouvre dans Safari et utilise Partager → Sur l’écran d’accueil. L’application reste un site web installé ; ce n’est pas un APK.
+Mode complet : Hören 20 min, Lesen 25 min, Schreiben 20 min, Sprechen 15 min. Les réponses écoute/lecture/formulaire sont corrigées sur 35 points après remise. Les variantes de formulaire peuvent demander une comparaison avec le corrigé fourni. L’estimation avec écrit et oral reste pédagogique, sans valeur de résultat officiel.
 
-## Tes audios
+Sources des supports externes : [Goethe — modèles A1](https://www.goethe.de/ins/de/de/prf/gzsd1/ueb.html), [Goethe — structure](https://www.goethe.de/ins/de/de/prf/gzsd1.cfm). La ressource telc proposée dans le site est un complément externe, sans feuille intégrée. Le site ne copie pas les PDF ou enregistrements officiels.
 
-Tu possèdes les enregistrements : le site les indique avec **AUDIO**. Lis les questions avant de lancer ta piste dans ton lecteur audio du téléphone. Reviens dans le cahier, note la référence et écris tes réponses. Les fichiers audio du livre ne sont pas intégrés dans cette archive. La table du PDF 257 concerne le CD apprenant ; elle ne remplace pas les références des autres supports du manuel.
+## Repères et sauvegardes
 
-Les boutons **Écouter** des cartes et dialogues du coach utilisent une voix de synthèse allemande du téléphone. Ils sont indépendants de tes fichiers du manuel. Une voix allemande installée est nécessaire ; son fonctionnement hors ligne dépend du téléphone. Le dictaphone du coach permet de se réécouter, sans notation automatique.
+PDF 10 = livre p. 8; PDF 96 = p. 94. Le PDF 97 reprend directement p. 96 : la page imprimée 95 manque dans le document fourni. Les repères tiennent compte de ce décalage.
 
-## Repères du document
-
-PDF 10 = livre p. 8. PDF 96 = livre p. 94. Le fichier fourni passe ensuite directement à la page imprimée 96, au PDF 97. Cette page imprimée 95 absente n’a pas été reconstituée. Les repères de chapitres et les numéros affichés tiennent compte de ce décalage. Les couvertures et la table des pistes ont des libellés particuliers.
-
-## Fichiers
-
-`index.html`, `style.css`, `content.js`, `reader.js`, `workbook-data.js`, `workbook.js`, `app.js`, `solutions-data.js`, `solutions.js`, `exam-data.js`, `exam.js`, `sw.js`, `manifest.webmanifest`, trois icônes et `.nojekyll` constituent le site. `README.md` et `LICENSE` fournissent la documentation. Aucun outil de compilation n’est nécessaire.
-
-La navigation utilise des liens relatifs pour fonctionner dans le sous-dossier du dépôt. Les sauvegardes de progression restent sur l’appareil ; exporter puis importer permet de les transférer. Le cache du manuel et les audios personnels ne sont pas dans l’export de progression.
+Les données restent sur l’appareil. Exporte ta progression régulièrement et utilise Importer sur un autre appareil. Pas de synchronisation automatique entre téléphone et ordinateur. Vider les données du navigateur peut supprimer progression et manuel : garde tes exports et ton pack personnel.
 
 ## Validation
 
-Vérifications automatisées de génération des écrans et des 258 pages, réponses des 260 questions, réponses incorrectes, bilans, révisions espacées, validation des sauvegardes, conservation du format historique et import d’un pack de 258 pages. Les 16 ressources en cache ont été vérifiées via un serveur local, avec récupération sans réseau. Les 13 compositions et cinq examens ont été vérifiés pour leurs réponses, la correction différée, l’expiration du chronomètre et la sauvegarde. Le navigateur graphique de test n’a pas pu démarrer dans cet environnement ; l’affichage réel sur téléphone reste à vérifier. Pas de test réalisé sur ton téléphone ni dans ton dépôt GitHub.
+Tests de fonctionnement : 258 pages; génération des écrans; 260 questions; 13 compositions et cinq examens; réponse incorrecte; correction différée; chronomètre; sauvegardes; cartes/rappels; compatibilité du pack personnel; conservation du cache du manuel.
 
-Le code et les aides pédagogiques originales sont sous licence MIT. Le manuel personnel et les enregistrements d’éditeur sont distincts de cette licence.
+Vérification dans Chromium à 320, 390 et 1440 pixels : navigation sans débordement sur les vues vérifiées, séance et rédaction sauvegardées, examen repris, correction après remise, cache du site et rechargement sans réseau. Le dépôt et le téléphone Android physique sont à vérifier après ta publication; ils ne sont pas accessibles dans cette livraison.
