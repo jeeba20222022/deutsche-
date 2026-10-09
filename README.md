@@ -1,104 +1,61 @@
-# Mise à jour : travailler page par page
+# Deutsch A1 – Mon Coach · version 2.0
 
-Le site s’ouvre sur le manuel à la page 8 du livre (PDF p. 10). Les 258 pages sont accessibles, avec navigation, agrandissement, notes par page et repère de travail. Les notes et la dernière page sont incluses dans la sauvegarde exportée.
+Site personnel d’apprentissage de l’allemand A1 pour francophone. Le code fonctionne sur GitHub Pages, sans compte apprenant, abonnement, API ou serveur applicatif. Tous les fichiers de cette archive sont à placer à la racine de ton dépôt existant.
 
-Dans le site, clique **Importer mon manuel**, choisis **manuel-personnel.deutsch** et attends la confirmation des 258 pages. Garde ce fichier sur ton téléphone pour pouvoir le réimporter si le cache est effacé. Pour GitHub, envoie seulement le contenu du dossier site/. Le manuel s’importe ensuite depuis le fichier manuel-personnel.deutsch sur chaque appareil. L’ensemble pèse environ 50 Mo.
+## Cette mise à jour
 
-Les pages 8 à 15 du livre disposent d’aides spécifiques en français vérifiées sur les pages. Les autres pages disposent de la page originale, d’un espace de réponses et des aides de leur unité lorsqu’elle est identifiée. Cette version ne fournit pas encore la traduction ni le corrigé détaillés de chaque exercice des 258 pages. Les exercices dépendant du CD ne sont pas corrigés par supposition.
+- Manuel personnel : 258 pages navigables après import de ton fichier `.deutsch`, agrandissement, notes, dernière page et repères de travail.
+- Cahier par page : 363 repères d’activités avec aides méthodologiques en français ; réponses enregistrées séparément. Tu peux ajouter une fiche pour toute activité ou sous-question du manuel. La liste des repères ne constitue pas un inventaire exhaustif garanti : la page originale reste la référence.
+- Introduction et 12 unités, explications françaises, vocabulaire, grammaire, dialogues, prononciation et missions de conversation.
+- 312 cartes allemand/français. Les 104 premières expressions et leurs identifiants de révision restent compatibles avec la version précédente.
+- 20 questions corrigées pour chaque unité et l’introduction : 260 questions au total. Trois bilans de 20 questions ; révision globale de 60 questions. Correction expliquée, score et meilleur résultat conservé.
+- Mention **AUDIO** pour les activités d’écoute repérées ; référence exacte à lire sous le pictogramme du manuel. Champ pour noter le nom de ton fichier ou la piste. Table du CD apprenant accessible au PDF 257.
+- Révisions : cartes après 1, 3, 7, 14 et 30 jours ; exercice difficile à revoir le lendemain ; exercice travaillé rappelé après 3 jours.
+- Notes, réponses, références audio, scores et rappels inclus dans l’export de progression.
 
-**Cette archive inclut les scans du manuel fourni. Le fichier manuel-personnel.deutsch n’est pas du contenu libre sous licence MIT. Publie seulement le dossier site/ sur GitHub ; garde le fichier manuel-personnel.deutsch sur ton ordinateur et ton téléphone. Les pages s’importent dans le cache local, elles ne sont pas envoyées au serveur.** Aucune publication n’a été effectuée pour toi.
+La méthodologie : comprendre → écouter → répéter → mémoriser → utiliser → tester → réviser. Travaille une page à la fois : lis la consigne, fais l’exercice du livre, écris tes réponses, puis reprends le point difficile le lendemain.
 
-Les fichiers du site et ses aides originales restent modifiables librement. Le guide GitHub ci-dessous explique la procédure technique d’hébergement, pas une autorisation de publier les scans.
+## Ce qui est corrigé
 
----
+Les examens sont des exercices originaux du coach, alignés sur les thèmes du parcours ; ils ont une correction automatique et une explication. Quelques activités du manuel ont une aide corrigée vérifiée sur les pages et clairement présentée dans une section dédiée.
 
-# Deutsch A1 – Mon Coach · version 1.1 · pages du manuel
+Les autres activités du livre utilisent un cahier de réponses et une grille d’autoévaluation. Le site ne contient pas un corrigé officiel complet du manuel et ne donne pas une note automatique à tes dialogues, rédactions ou réponses audio. Il ne faut pas interpréter « J’ai travaillé cet exercice » comme une validation par un correcteur. Le test global pédagogique n’est pas une certification ni une copie de l’examen officiel.
 
-Un coach personnel d’allemand pour francophone débutant. Aucun compte, aucune clé API, aucun abonnement nécessaire au fonctionnement du site. Le code et les aides originales peuvent être modifiés librement.
+## Mettre à jour ton dépôt GitHub
 
-## Ce que contient cette version
+1. Dans l’ancienne application, ouvre **Progrès → Exporter ma progression**, par précaution.
+2. Télécharge puis extrais `Deutsch-A1-v2-Site-GitHub.zip`.
+3. Ouvre ton dépôt `deutsche-`, onglet **Code**. Utilise **Add file → Upload files**, puis dépose tous les fichiers extraits à la racine, où se trouve déjà `index.html`. Envoie les fichiers, pas le ZIP et pas un dossier supplémentaire. Valide avec **Commit changes**.
+4. Attends la réussite du déploiement GitHub Pages. Ouvre ton adresse habituelle, recharge, puis ferme et rouvre l’application installée si elle montre encore l’ancienne version. Le pied de page doit afficher **Version 2.0**.
 
-- Introduction et 12 unités dans l’ordre des thèmes de Studio d A1, avec renvois aux pages imprimées.
-- Explications originales en français, 26 fiches complémentaires, 104 expressions allemand/français et 13 dialogues.
-- Parcours : comprendre, écouter, répéter, mémoriser, utiliser, tester, réviser.
-- 78 questions d’unité : QCM, grammaire, traduction et ordre des mots.
-- Exercices d’écoute (synthèse vocale), enregistrement local de ta voix, missions de conversation.
-- Révision espacée avec retour des cartes difficiles, scores, jours de pratique, série de jours.
-- Trois bilans de 12 questions et un entraînement global de 24 questions ; missions écrites et orales à auto-évaluer.
-- Application web installable, cache hors connexion et export/import de la progression.
+Ne change pas les paramètres GitHub Pages d’un site qui fonctionne déjà. La mise à jour conserve la clé de sauvegarde et le cache des pages du manuel. Le nouveau service worker remplace seulement les fichiers du site. Exporte avant de supprimer des données dans les réglages du navigateur.
 
-C’est un premier parcours synthétique utilisable couvrant tous les thèmes, pas une numérisation exhaustive de chaque page ou de chaque exercice du manuel. Les textes et exercices sont originaux. Le PDF lui-même et les pistes audio Cornelsen ne sont pas inclus ; le fichier personnel séparé contient les 258 pages du PDF fourni, sous forme d’images. Les tests du coach ne reproduisent pas le format complet d’un examen officiel. L’application n’attribue pas de certification.
+## Manuel et téléphone
 
-## 1. Mettre le site sur GitHub
+Cette petite archive contient le site et ses aides ; elle ne contient pas les scans du livre. Si ton manuel est déjà importé dans l’application, tu le conserves. Sinon, dans **Manuel → Importer mon manuel**, choisis ton fichier personnel `manuel-personnel.deutsch`. Les packs fournis précédemment restent compatibles, y compris la version légère. Il faut l’importer séparément sur chaque appareil ; la synchronisation n’est pas automatique.
 
-1. Extrais cette archive ZIP sur ton ordinateur. Tu trouveras site/ et manuel-personnel.deutsch. N’envoie pas le ZIP ni le fichier personnel sur GitHub.
-2. Connecte-toi sur https://github.com et crée un dépôt nommé `deutsch-a1-coach` (ou utilise ton dépôt existant).
-3. Pour un hébergement gratuit sur GitHub Pages avec GitHub Free, choisis un dépôt public. Si tu utilises un dépôt privé, vérifie que ton offre inclut Pages. Le site publié ne comporte aucune connexion et est consultable par les visiteurs qui connaissent son URL. Tes scores restent sur ton appareil.
-4. Dans le dépôt : **Add file → Upload files**. Dépose les fichiers extraits, à la racine. Dépose uniquement les fichiers situés dans site/, pas le dossier site/ lui-même. Tu dois voir directement `index.html`, `app.js`, `content.js`, `style.css`, `sw.js`, `manifest.webmanifest` et les trois icônes. Ne dépose pas le fichier manuel-personnel.deutsch. Pas de sous-dossier intermédiaire.
-5. Clique **Commit changes** pour enregistrer.
-6. Ouvre **Settings → Pages**. Dans **Build and deployment**, choisis **Source → Deploy from a branch**, puis **main** et **/(root)**. Clique **Save**.
-7. Attends que GitHub affiche le lien du site. Il aura la forme `https://TON-PSEUDO.github.io/deutsch-a1-coach/`. Le mot deutsch figurera dans le chemin grâce au nom du dépôt.
-8. Ouvre le lien dans le navigateur. N’utilise pas le lien du fichier `index.html` dans le dépôt.
+Garde ce fichier sur ton téléphone : si le navigateur efface son cache, tu peux le réimporter. Le manuel reste dans le cache local et n’est pas envoyé au serveur par cette application.
 
-Si `main` n’apparaît pas, les fichiers n’ont probablement pas encore été enregistrés. Vérifie le premier commit. Si le site affiche une erreur 404, vérifie l’emplacement de `index.html` et le résultat du déploiement dans l’onglet Actions.
+Pour installer : ouvre le site en HTTPS dans le navigateur et attends **Prêt hors connexion**. Sur Android, utilise le menu du navigateur pour installer / ajouter à l’écran d’accueil. Sur iPhone, ouvre dans Safari et utilise Partager → Sur l’écran d’accueil. L’application reste un site web installé ; ce n’est pas un APK.
 
-L’archive contient aussi `.nojekyll` ; ce fichier peut être masqué dans l’explorateur Windows. Les fichiers du projet ne nécessitent pas de compilation. Une publication depuis la branche fonctionne aussi pour ces fichiers sans `.nojekyll`.
+## Tes audios
 
-## 2. Installer sur le téléphone
+Tu possèdes les enregistrements : le site les indique avec **AUDIO**. Lis les questions avant de lancer ta piste dans ton lecteur audio du téléphone. Reviens dans le cahier, note la référence et écris tes réponses. Les fichiers audio du livre ne sont pas intégrés dans cette archive. La table du PDF 257 concerne le CD apprenant ; elle ne remplace pas les références des autres supports du manuel.
 
-**Android / Chrome** : ouvre l’adresse du site, utilise le bouton Installer ou le menu du navigateur puis Installer l’application / Ajouter à l’écran d’accueil.
+Les boutons **Écouter** des cartes et dialogues du coach utilisent une voix de synthèse allemande du téléphone. Ils sont indépendants de tes fichiers du manuel. Une voix allemande installée est nécessaire ; son fonctionnement hors ligne dépend du téléphone. Le dictaphone du coach permet de se réécouter, sans notation automatique.
 
-**iPhone / Safari** : ouvre l’adresse, touche Partager, puis Sur l’écran d’accueil (Add to Home Screen). Active l’ouverture en application web si l’option est proposée, puis Ajouter.
+## Repères du document
 
-L’application installée garde une icône sur ton écran d’accueil. Elle n’est pas un fichier APK ni une application de l’App Store.
+PDF 10 = livre p. 8. PDF 96 = livre p. 94. Le fichier fourni passe ensuite directement à la page imprimée 96, au PDF 97. Cette page imprimée 95 absente n’a pas été reconstituée. Les repères de chapitres et les numéros affichés tiennent compte de ce décalage. Les couvertures et la table des pistes ont des libellés particuliers.
 
-## 3. Hors connexion
+## Fichiers
 
-Ouvre d’abord le site en ligne, attends le message **Prêt hors connexion**, puis passe en mode avion et rouvre l’application. Les cours, cartes, dialogues écrits et exercices sont mis en cache ensemble. Le cache nécessite une adresse HTTPS ou localhost : double-cliquer sur un fichier HTML ne permet pas l’installation hors ligne.
+`index.html`, `style.css`, `content.js`, `reader.js`, `workbook-data.js`, `workbook.js`, `app.js`, `sw.js`, `manifest.webmanifest`, trois icônes et `.nojekyll` constituent le site. `README.md` et `LICENSE` fournissent la documentation. Aucun outil de compilation n’est nécessaire.
 
-**Audio** : la voix allemande est celle du système/navigateur. Une voix allemande doit être disponible ; télécharge-la dans les paramètres de synthèse vocale de ton appareil pour essayer l’écoute hors ligne. Selon l’appareil et le navigateur, certaines voix nécessitent Internet. Aucun enregistrement du livre n’est inclus. Sans voix disponible, les cours et exercices écrits restent accessibles.
+La navigation utilise des liens relatifs pour fonctionner dans le sous-dossier du dépôt. Les sauvegardes de progression restent sur l’appareil ; exporter puis importer permet de les transférer. Le cache du manuel et les audios personnels ne sont pas dans l’export de progression.
 
-**Microphone** : il faut autoriser le micro. L’enregistrement reste local et sert à t’écouter ; il n’y a pas de correction automatique de prononciation. Une navigation efface le lecteur courant. L’enregistrement ne part pas vers un serveur.
+## Validation
 
-Si le navigateur efface le cache (nettoyage, manque de stockage), reconnecte-toi pour remettre les fichiers en cache.
+Vérifications automatisées de génération des écrans et des 258 pages, réponses des 260 questions, réponses incorrectes, bilans, révisions espacées, validation des sauvegardes, conservation du format historique et import d’un pack de 258 pages. Les 12 ressources du site ont été vérifiées via un serveur local, avec récupération en cache sans réseau. Pas de test réalisé sur ton téléphone ni dans ton dépôt GitHub.
 
-## 4. Bien apprendre
-
-Une séance de 15 minutes : 3 minutes pour comprendre, 3 pour écouter et répéter, 3 pour les cartes, 3 pour le dialogue, 3 pour le test. À partir de 80 % au test d’une unité, elle est validée. La progression générale correspond à la moyenne des meilleurs scores des 13 étapes, en comptant les étapes non testées à zéro.
-
-Le vocabulaire « connu » correspond aux cartes marquées Je savais ; c’est une auto-évaluation. La révision revient après 1, 3, 7, 14 puis 30 jours. Une carte difficile revient une fois en fin de séance ; si tu échoues encore, elle reste due.
-
-## 5. Protéger et transférer les résultats
-
-Dans **Progrès**, choisis **Exporter ma progression**. Garde le fichier JSON. Sur l’autre appareil : ouvre le même site, puis **Importer une sauvegarde**. L’import remplace la progression locale.
-
-Sans export/import, téléphone et ordinateur ont des progressions séparées. Le mode privé du navigateur et la suppression des données du site peuvent effacer les scores. Les enregistrements audio ne sont pas inclus dans les exports.
-
-## 6. Modifier le site
-
-- `content.js` : les données de cours, dialogues et questions.
-- `make_content.py` : source Python permettant de régénérer `content.js` ; Python n’est pas nécessaire pour utiliser le site.
-- `app.js` : interactions et sauvegarde.
-- `reader.js` : lecture des pages, consignes spécifiques et notes.
-- `manuel-personnel.deutsch` : les 258 pages du manuel fourni, à importer localement ; ce fichier doit rester en dehors du dépôt GitHub.
-- `style.css` : apparence et affichage mobile.
-- `manifest.webmanifest` : nom et icônes de l’application.
-- `sw.js` : fichiers du cache hors connexion.
-
-Après modification, change la version de `CACHE` dans `sw.js` (par exemple v1.0.1) pour renouveler le cache, puis enregistre les fichiers sur GitHub. Ouvre le site en ligne à nouveau ; une fermeture/réouverture peut être nécessaire. Le stockage des scores conserve la même clé afin de garder ta progression.
-
-Pour tester localement : `python3 -m http.server 8000` dans ce dossier, puis ouvre `http://localhost:8000`.
-
-## Validation réalisée
-
-Syntaxe des trois scripts JavaScript ; génération des sept écrans ; 13 unités et leurs sept étapes ; 78 bonnes réponses ; correction d’une mauvaise réponse ; bilans ; test global ; cartes difficiles et rappels ; validation des sauvegardes ; mise en cache des dix ressources et récupération simulée sans réseau dans un sous-dossier.
-
-Le navigateur de test n’était pas disponible dans l’environnement de création : le rendu visuel, l’installation sur un téléphone réel et les voix locales restent à vérifier sur ton appareil. La vérification du cache a été effectuée par simulation des API de service worker, pas en mode avion sur un téléphone.
-
-## Documentation officielle consultée
-
-- GitHub Pages : https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
-- Android : https://support.google.com/chrome/answer/9658361?co=GENIE.Platform%3DAndroid
-- iPhone : https://support.apple.com/guide/iphone/open-as-web-app-iphea86e5236/ios
-
-Coach indépendant de Cornelsen. Studio d est la référence de progression ; aucun lien d’affiliation.
+Le code et les aides pédagogiques originales sont sous licence MIT. Le manuel personnel et les enregistrements d’éditeur sont distincts de cette licence.
